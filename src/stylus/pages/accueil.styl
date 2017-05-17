@@ -5,6 +5,9 @@
 .accueil-ban
   margin-top 55px
   position relative
+  margin-bottom 40px
+  img
+    width 100%
   h1
     position absolute
     right 120px
@@ -12,18 +15,27 @@
     text-align right
     line-height: 72px
 
-.accueil-images
+.accueil-images-right
   width 368px
   height 368px
+  margin-top -30px
+
+.accueil-images-left
+  width 330px
+  height 330px
+  margin-top 35px
 
 .accueil-content-left
   float left
-  width 45%
+  width 47%
+  height 370px
+  position relative
 
 .accueil-content-right
   float right
-  width 45%
-  margin-top 25px
+  width 47%
+  height 350px
+  position relative
 
 .accueil-text
   line-height 26px
@@ -32,7 +44,56 @@
 .accueil-title
   line-height 86px
 
-.accueil-concept
-  a
-    text-decoration none
-    text-align right
+.accueil-content-button
+  position absolute
+  bottom 0
+  right 20px
+  text-decoration none
+  text-align right
+
+.accueil-part
+  margin-bottom 50px
+
+.content-image
+  text-align: center
+
+.accueil-how-it-works
+  p
+    padding-top 20px
+    text-align center
+  .accueil-how-it-works-steps
+    text-align center
+    margin 0 auto
+    .accueil-how-it-works-step
+      text-align: center
+      display inline-block
+      width 315px
+      padding 30px
+      .accueil-how-it-works-step-number
+        background-color $yellow-light
+        width 60px
+        height 60px
+        line-height 70px
+        border-radius 100%
+        margin-left 100px
+        margin-bottom 30px
+
+.accueil-partners
+  text-align center
+  margin-top 30px
+  .lato-text-bluedark
+    width 750px
+    margin 0 auto
+    line-height 22px
+    margin-top 20px
+  .accueil-partners-logo
+    width 700px
+    margin 0 auto
+    margin-top 20px
+    .accueil-how-it-works-step
+      text-align: center
+      display inline-block
+      padding 20px
+      img
+        width 170px
+        height 100%

@@ -178,22 +178,27 @@ TEXT MENU HEADER FOOTER
 .lato-footer
    font-family Lato
    font-weight 400
-   font-size 20px
+   font-size 18px
+   text-transform uppercase
+   color $blue-dark
+
+.lato-footer-lowercase
+  font-family Lato
+  font-weight 400
+  font-size 18px
+  color $blue-dark
 
 .lato-footer-light
    font-family Lato
    font-weight 300
    font-size 18px
-
-.lato-footer-regular
-   font-family Lato
-   font-weight 400
-   font-size 18px
+   color $blue-dark
 
 .lato-footer-bold
    font-family Lato
    font-weight 700
    font-size 18px
+   color $blue-dark
 
 
 /***$***$***$***$***$***$***$***$***$***$***$***$***$***$***$
@@ -202,8 +207,22 @@ BUTTON
 
 ***$***$***$***$***$***$***$***$***$***$***$***$***$***$***$*/
 
-.lato-button
-   font-family Lato
-   font-weight 400
-   font-size 20px
-   text-transform uppercase
+
+
+.button
+  background-color $blue-dark
+  padding 7px 25px 7px 25px
+  border-radius 60px
+  border: solid $blue-dark 2px
+  font-family Lato
+  font-size 20px
+  text-transform uppercase
+  font-weight 400
+  color $white
+
+.button:hover
+  background-color $white
+  color $blue-dark
+
+.clear-both
+  clear:both

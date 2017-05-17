@@ -1,0 +1,116 @@
+footer
+  background-color $yellow-light
+  width 100%
+  height 325px
+
+.container
+  width 1050px
+  margin 0 auto
+
+.footer-sitemap
+  float left
+  padding-top 64px
+  margin-left 20px
+  li
+    margin-bottom 30px
+    a
+      text-decoration none
+
+.footer-others-links
+  float left
+  padding-top 64px
+  margin-left 110px
+  li
+    margin-bottom 30px
+    a
+      text-decoration none
+
+.footer-social-networks
+  float left
+  padding-top 54px
+  position relative
+  margin-left 123px
+  p
+    display inline-block
+    position absolute
+    left -45px
+    top 65px
+  nav
+    display inline-block
+    margin-left 55px
+    ul
+      display inline-block
+      li
+        margin-left 30px
+        display inline-block
+        img
+          width 40px
+
+.footer-newsletter-subscription
+  float left
+  margin-left 80px
+  margin-top 35px
+  p
+    margin-bottom 20px
+  form
+    position relative
+    input[type=mail]
+      border-bottom 1px solid $blue-dark
+      margin-bottom 30px
+      width 110%
+    input[type=text]
+      border-bottom 1px solid $blue-dark
+      margin-bottom 30px
+      width 50%
+      height 23px
+    input[type=submit]
+      position absolute
+      height 37px
+      left 200px
+      top 50px
+
+@media (max-width: 1050px)
+  footer
+    height 650px
+
+  .container
+    width 600px
+
+  .footer-sitemap
+    margin-left 30px
+
+  .footer-social-networks
+    margin-left 153px
+
+  .footer-newsletter-subscription
+    margin-left 110px
+
+@media (max-width: 650px)
+  footer
+    height 850px
+
+  .container
+    width 100%
+
+  .footer-sitemap
+    width 100%
+    margin-left 0px
+    text-align center
+
+  .footer-others-links
+    padding-top 0px
+    width 100%
+    margin-left 0px
+    text-align center
+
+  .footer-social-networks
+    width 100%
+    margin-left 75px
+    padding-top 30px
+    p
+      top 40px
+
+
+  .footer-newsletter-subscription
+    width 80%
+    margin-left 15px

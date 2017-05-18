@@ -44,15 +44,15 @@
 
   <div class="accueil-advantages accueil-part">
 
+    <div class="accueil-content-right content-image">
+      <img src="src/images/poussin_coquille.png" alt="" class="accueil-images-left">
+    </div>
+
     <div class="accueil-content-left content-text">
       <p class="satisfy-big-title-orange accueil-title">Pourquoi c'est génial ?</p>
       <p class="lato-text-bluedark accueil-text">Si vous voulez le meilleur pour votre enfant, vous n’avez pas forcément le temps de surfer sur le web pour déni-cher de nouveaux produits à petit prix. Heureusement, Mes premiers mois s’en charge pour vous !</p>
       <p class="lato-text-bluedark accueil-text">Ce coffret est une sélection unique, qui vous permet de réaliser 50% d’économies par rapport au prix réel des produits et de faire de nombreuses découvertes chaque mois. Convaincu par un produit ? Retrouvez le sur l’eshop à prix mini ! </p>
       <a href="#" class="button accueil-content-button">découvrir</a>
-    </div>
-
-    <div class="accueil-content-right content-image">
-      <img src="src/images/poussin_coquille.png" alt="" class="accueil-images-left">
     </div>
 
     <div class="clear-both"></div>
@@ -72,7 +72,7 @@
 
       <div class="accueil-how-it-works-step">
         <div class="accueil-how-it-works-step-number satisfy-little-title-bluedark">2</div>
-        <p class="lato-footer-light">Personnalisez et commandez votre box facilement et à tout moment depuis chez vous</p>
+        <p class="lato-footer-light">Commandez votre box personnalisée facilement et à tout moment depuis chez vous</p>
       </div>
 
       <div class="accueil-how-it-works-step">
@@ -103,15 +103,15 @@
 
   <div class="accueil-french accueil-part">
 
+    <div class="accueil-content-right content-image">
+      <img src="src/images/poussin_francais.png" alt="" class="accueil-images-left">
+    </div>
+    
     <div class="accueil-content-left content-text">
       <p class="satisfy-big-title-orange accueil-title">Et c'est français !</p>
       <p class="lato-text-bluedark accueil-text">Avec nos box engagées, nous sommes soucieux de vous proposer des produits à la production durable, respectueuse de l’humain et de la nature et qui soutient les producteurs locaux et les entreprises françaises.</p>
       <p class="lato-text-bluedark accueil-text">En cadeau de naissance ou en tant qu’abonnement familial, la box Mes premiers mois est un véritable engagement pour la production durable : même son emballage est biodégradable ! Plus qu'un cadeau, vous offrez à bébé un futur désirable. </p>
       <a href="#" class="button accueil-content-button">découvrir</a>
-    </div>
-
-    <div class="accueil-content-right content-image">
-      <img src="src/images/poussin_francais.png" alt="" class="accueil-images-left">
     </div>
 
     <div class="clear-both"></div>

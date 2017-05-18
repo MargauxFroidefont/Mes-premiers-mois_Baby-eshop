@@ -83,18 +83,24 @@ TITLE
 
 .satisfy-little-title-orange
    font-family Satisfy
-   font-size 35px
+   font-size 30px
    color $orange
 
 .satisfy-little-title-bluelight
    font-family Satisfy
-   font-size 35px
+   font-size 30px
    color $blue-light
 
 .satisfy-little-title-bluedark
    font-family Satisfy
-   font-size 35px
+   font-size 30px
    color $blue-dark
+
+.satisfy-little-title-pink
+   font-family Satisfy
+   font-size 30px
+   color $pink-dark
+   line-height 60px
 
 
 
@@ -131,10 +137,11 @@ TEXT MENU HEADER FOOTER
 
 .lato-comment-bluedark
    font-family Lato
-   font-weight 300
-   font-size 16px
+   font-weight 400
+   font-size 14px
    font-style italic
    color $blue-dark
+   line-height 20px
 
 
 /*$***$***$* MENU *$***$***$**/
@@ -171,7 +178,12 @@ TEXT MENU HEADER FOOTER
    font-family Lato
    font-weight 400
    font-size 16px
-   color
+
+.lato-reinsurance
+    font-family Lato
+    font-weight 700
+    font-size 12px
+    text-transform uppercase
 
 /*$***$***$** FOOTER *$***$***$**/
 
@@ -226,3 +238,28 @@ BUTTON
 
 .clear-both
   clear:both
+
+.content
+  width 960px
+  margin 0 auto
+
+.reinsurance-content
+  margin-top 60px
+  margin-bottom 60px
+  .reinsurance-elements
+    display inline-block
+    text-align center
+    position relative
+    margin-left 63px
+    width 160px
+    img
+      height 35px
+      margin-bottom 10px
+    .reinsurance-filet
+      display inline-block
+      width 1px
+      height 100px
+      background-color $blue-dark
+      position absolute
+      left 190px
+      top -15px

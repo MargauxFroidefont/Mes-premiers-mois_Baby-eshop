@@ -37,8 +37,10 @@
     <div class="nosbox-content-right">
       <p class="satisfy-little-title-orange">Vacances à la mer</p>
       <img src="src/images/box_juin.png" alt="" class="nosbox-images">
-      <a href="#" class="button nosbox-button button-buy-box">Commander une box</a>
-      <a href="#" class="button nosbox-button button-buy-products">Voir les produits</a>
+      <div class="button-content">
+        <a href="#" class="button nosbox-button button-buy-box">Commander une box</a>
+        <a href="#" class="button nosbox-button button-buy-products">Voir les produits</a>
+      </div>
     </div>
 
     <div class="nosbox-comments-left">
@@ -79,8 +81,10 @@
     <div class="nosbox-content-right">
       <p class="satisfy-little-title-orange">Une journée au zoo</p>
       <img src="src/images/box_mai.png" alt="" class="nosbox-images">
-      <a href="#" class="button nosbox-button button-buy-box">Commander une box</a>
-      <a href="#" class="button nosbox-button button-buy-products">Voir les produits</a>
+      <div class="button-content">
+        <a href="#" class="button nosbox-button button-buy-box">Commander une box</a>
+        <a href="#" class="button nosbox-button button-buy-products">Voir les produits</a>
+      </div>
     </div>
 
     <div class="nosbox-comments-left">
@@ -121,8 +125,10 @@
     <div class="nosbox-content-right">
       <p class="satisfy-little-title-orange">Le retour du printemps</p>
       <img src="src/images/box_avril.png" alt="" class="nosbox-images">
-      <a href="#" class="button nosbox-button button-buy-box">Commander une box</a>
-      <a href="#" class="button nosbox-button button-buy-products">Voir les produits</a>
+      <div class="button-content">
+        <a href="#" class="button nosbox-button button-buy-box">Commander une box</a>
+        <a href="#" class="button nosbox-button button-buy-products">Voir les produits</a>
+      </div>
     </div>
 
     <div class="nosbox-comments-left">
@@ -148,7 +154,7 @@
 
     <div class="reinsurance-elements">
       <img src="src/icons/bio.jpg" alt="">
-      <h4 class="lato-reinsurance">Agriculture Biologique</h4>
+      <h4 class="lato-reinsurance">Agriculture Bio</h4>
       <div class="reinsurance-filet"></div>
     </div>
 

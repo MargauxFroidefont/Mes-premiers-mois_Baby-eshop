@@ -1,0 +1,161 @@
+// INSCRIPTION
+
+
+.inscription-container
+    padding-top 60px
+    width 960px
+    margin 0 auto
+
+    /*
+    display flex
+    flex-direction row
+    flex-start
+    align-items
+    */
+
+    .login-container
+        width 49%
+        display inline-block
+        vertical-align top
+        padding-left 50px
+
+        h1
+            margin-bottom 40px
+
+        .form
+            position relative
+
+        .form-inscription
+            height 500px
+
+        .form-title
+            margin-bottom 25px
+
+        .form-zone // groupe avec un label et un input
+            margin-bottom 25px
+
+        .form-input
+            width 400px
+            border-radius 10px
+            border $pink-dark solid 1px
+            margin 5px
+            padding 8px
+
+            .form-input-size
+                width 100%
+
+        .form-label
+            margin-left 6px
+
+        .form-buton
+            height auto
+            width 120px
+            position absolute
+            right 4%
+            top 170px
+
+
+        .form-buton-inscription
+            height auto
+            width 120px
+            position absolute
+            right 4%
+            top 340px
+
+        .form-popup-messages
+            position absolute
+            top 250px
+
+            .popup-error
+                color $red
+
+            .popup-validation
+                color $green-dark
+
+        .form-popup-messages-inscription
+            position absolute
+            top 400px
+
+            .popup-error
+                color $red
+
+            .popup-validation
+                color $green-dark
+
+
+
+
+@media(max-width: 1000px)
+    .inscription-container
+        padding-top 60px
+        width 500px
+        margin 0 auto
+        height 900px
+
+        .login-container
+            display block
+            padding 10px
+            height 320px
+
+            h1
+                margin-bottom 0px
+
+            .form
+                position relative
+
+            .form-inscription
+                height 900px
+
+            .form-title
+                margin-bottom 25px
+
+            .form-zone // groupe avec un label et un input
+                margin-bottom 10px
+
+            .form-input
+                width 400px
+                border-radius 10px
+                border $pink-dark solid 1px
+                margin 5px
+                padding 8px
+
+                .form-input-size
+                    width 100%
+
+            .form-label
+                margin-left 10px
+
+            .form-buton
+                height auto
+                width 120px
+                position absolute
+                left 0%
+                //top 170px
+
+
+            .form-buton-inscription
+                height auto
+                width 120px
+                position absolute
+                left 0%
+                top 315px
+
+            .form-popup-messages
+                position absolute
+                top 250px
+
+                .popup-error
+                    color $red
+
+                .popup-validation
+                    color $green-dark
+
+            .form-popup-messages-inscription
+                //position absolute
+                top 400px
+
+                .popup-error
+                    color $red
+
+                .popup-validation
+                    color $green-dark

@@ -15,11 +15,12 @@
       margin-bottom 30px
 
   .form
-      width 450px
       position relative
 
-  .form-inscription
-      height 500px
+  .form-part
+      float left
+      width 480px
+      height 420px
 
   .form-title
       margin-bottom 25px
@@ -27,8 +28,24 @@
   .form-zone // groupe avec un label et un input
       margin-bottom 25px
 
+      textarea
+          height 70px
+
   .form-zone-check
-      margin-bottom 55px
+      margin-bottom 25px
+
+      input
+          margin-top 10px
+          margin-right 10px
+
+      .form-checklist
+
+          .form-check
+              display inline-block
+              width 147px
+
+              label
+                  width 100px
 
   .form-input
       width 400px
@@ -43,115 +60,100 @@
   .form-label
       margin-left 6px
 
-  .form-buton
+  .form-label-choice
+      margin-left 6px
+      margin-right 400px
+
+  .form-button
       height auto
       width 120px
       position absolute
-      right 4%
-      top 170px
+      right 75px
+      bottom 10px
 
 
-  .form-buton-inscription
-      height auto
-      width 120px
-      position absolute
-      right 4%
-      top 340px
+@media(max-width: 1050px)
 
-  .form-popup-messages
-      position absolute
-      top 250px
+  .ariane-string
+    nav
+      ul
+        width 550px
+        margin 0 auto
+        li
+          line-height 30px
+          img
+            width 40px
 
-      .popup-error
-          color $red
-
-      .popup-validatio  n
-        color $green-dark
-
-  .form-popup-messages-inscription
-      position absolute
-      top 400px
-
-      .popup-error
-          color $red
-
-      .popup-validation
-          color $green-dark
-
-
-
-
-@media(max-width: 1000px)
-  .inscription-container
-  padding-top 60px
-  width 500px
-  margin 0 auto
-  height 900px
-
-  .login-container
-      display block
-      padding 10px
-      height 320px
+  .baby-form
 
       h1
-          margin-bottom 0px
+          margin-bottom 30px
+          margin-left 185px
 
       .form
           position relative
+          margin-bottom 90px
 
-      .form-inscription
-          height 900px
+          .form-part
+              float none
+              margin 0 auto
+              width 430px
+              height 360px
 
-      .form-title
-          margin-bottom 25px
+          .form-zone
+              margin-bottom 30px
 
-      .form-zone // groupe avec un label et un input
-          margin-bottom 10px
+
+          .form-zone-check
+
+              .form-checklist
+
+                  .form-check
+                      display inline-block
+                      width 130px
+
+          .form-label
+              margin-left 10px
+
+          .form-button
+              height auto
+              width 120px
+              position absolute
+              right 135px
+              bottom -90px
+
+@media(max-width: 650px)
+
+  .ariane-string
+    nav
+      text-align center
+      margin-top 20px
+      ul
+        width 220px
+        margin 0 auto
+        li
+          line-height 30px
+          font-size 14px
+          img
+            width 30px
+
+  .baby-form
+
+      h1
+          margin-bottom 30px
+          margin-left 60px
+
+  .form-zone
+      margin-left 5px
 
       .form-input
-          width 400px
-          border-radius 10px
-          border $pink-dark solid 1px
-          margin 5px
-          padding 8px
+          width 370px
 
-          .form-input-size
-              width 100%
+  .form-zone-check
+      margin-left 10px
 
-      .form-label
-          margin-left 10px
-
-      .form-buton
-          height auto
-          width 120px
-          position absolute
-          left 0%
-          //top 170px
-
-
-      .form-buton-inscription
-          height auto
-          width 120px
-          position absolute
-          left 0%
-          top 315px
-
-      .form-popup-messages
-          position absolute
-          top 250px
-
-          .popup-error
-              color $red
-
-          .popup-validation
-              color $green-dark
-
-      .form-popup-messages-inscription
-          //position absolute
-          top 400px
-
-          .popup-error
-              color $red
-
-          .popup-validation
-              color $green-dark
+  .form-button
+      height auto
+      width 120px
+      position relative
+      margin 0 auto

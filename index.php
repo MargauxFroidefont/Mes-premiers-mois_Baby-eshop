@@ -30,9 +30,9 @@ else if($q === 'boutique')
 {
 	$page = 'boutique';
 }
-else if($q === 'tunnelachat1')
+else if($q === 'formulairebebe')
 {
-	$page = 'tunnelachat1';
+	$page = 'formulairebebe';
 }
 else if($q === 'mentionslegales')
 {

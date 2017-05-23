@@ -23,7 +23,11 @@
 
 		<nav class="header-customer-bar lato-header">
 			<ul>
-				<li><a href="#" ><img src="src/icons/user.svg" alt="espace client">Mon compte</a></li>
+				<?php if(isset($_SESSION['clients'])) :?>
+					<li><a href="compte" ><img src="src/icons/user.svg" alt="espace client">Mon compte</a></li>
+				<?php else:?>
+					<li><a href="inscription" ><img src="src/icons/user.svg" alt="espace client">Se connecter</a></li>
+				<?php endif; ?>
 				<li><a href="#" ><img src="src/icons/shopping-bag.svg" alt="panier client">Mon panier</a></li>
 			</ul>
 		</nav>

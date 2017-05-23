@@ -19,17 +19,36 @@
 
   .form-part
       float left
-      width 480px
+      width 450px
       height 420px
+      margin-left 27px
+
+  .form-part-buy
+      float left
+      width 450px
+      height auto
+      margin-left 27px
+      margin-bottom 40px
 
   .form-title
       margin-bottom 25px
 
-  .form-zone // groupe avec un label et un input
+  .form-zone
       margin-bottom 25px
 
       textarea
           height 70px
+
+  .form-zone-card
+      margin-bottom 25px
+
+  .form-build
+
+      textarea
+          height 110px
+
+  .valid
+      margin-top 70px
 
   .form-zone-check
       margin-bottom 25px
@@ -46,6 +65,11 @@
 
               label
                   width 100px
+
+           .form-buy-check
+
+               label
+                   width 300px
 
   .form-input
       width 400px
@@ -68,13 +92,78 @@
       height auto
       width 120px
       position absolute
-      right 75px
+      right 50px
       bottom 10px
+
+  .form-buy-button
+      height auto
+      width 120px
+      position absolute
+      right 55px
+      bottom 90px
+
+  .email-confirm
+      text-align right
+      margin-top 90px
+      margin-right 40px
+
+  .buy-recap
+     margin-bottom 60px
+
+     h1
+         margin-left 20px
+         margin-bottom 40px
+
+     .buy-table
+         border solid 2px $blue-light
+         width 800px
+         padding 12px 12px 0px 12px
+         border-radius 10px
+         margin 0 auto
+
+         table
+             text-align center
+             width 100%
+
+             .left
+                 text-align left
+
+             .right
+                text-align right
+
+             .bold
+                 font-weight 400
+
+             tr
+                 height 30px
+
+.validation
+    height 480px
+
+    .lato-text-bluedark
+        margin-top 20px
+        text-align right
+
+    .validation-img
+        text-align center
+        margin-top 30px
+
+        img
+            width 250px
+
+    .validation-link
+        text-align center
+        margin-top 20px
+
+        a
+            text-decoration none
+
 
 
 @media(max-width: 1050px)
 
   .ariane-string
+    text-align center
     nav
       ul
         width 550px
@@ -88,17 +177,23 @@
 
       h1
           margin-bottom 30px
-          margin-left 185px
+          text-align center
 
       .form
           position relative
-          margin-bottom 90px
+          margin-bottom 60px
+
+          .form-part-buy
+              float none
+              margin 0 auto
+              width 430px
+              height 110%
 
           .form-part
               float none
               margin 0 auto
               width 430px
-              height 360px
+              height 110%
 
           .form-zone
               margin-bottom 30px
@@ -115,12 +210,37 @@
           .form-label
               margin-left 10px
 
+          .form-buy-button
+              height auto
+              width 120px
+              position absolute
+              right 140px
+              bottom 5px
+
           .form-button
               height auto
               width 120px
               position absolute
-              right 135px
-              bottom -90px
+              right 140px
+              bottom -60px
+
+          .paypal
+
+              h1
+                  margin-top 30px
+
+          .valid
+              margin-top 40px
+
+
+      .buy-recap
+
+          h1
+             margin-left 0px
+
+          .buy-table
+              width 650px
+
 
 @media(max-width: 650px)
 
@@ -141,7 +261,15 @@
 
       h1
           margin-bottom 30px
-          margin-left 60px
+          text-align center
+
+      .buy-recap
+
+          .buy-table
+              width 350px
+
+      .email-confirm
+          text-align center
 
   .form-zone
       margin-left 5px
@@ -152,8 +280,18 @@
   .form-zone-check
       margin-left 10px
 
+  .form-buy-button
+      height auto
+      width 120px
+      position absolute
+      left 35%
+
   .form-button
       height auto
       width 120px
-      position relative
-      margin 0 auto
+      position absolute
+      left 35%
+
+  .validation
+    width 85%
+    margin-left 7%

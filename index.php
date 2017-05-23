@@ -10,6 +10,10 @@ if($q === '')
 {
 	$page = 'accueil';
 }
+if($q === 'accueil')
+{
+	$page = 'accueil';
+}
 else if($q === 'contact')
 {
 	$page = 'contact';
@@ -30,10 +34,6 @@ else if($q === 'boutique')
 {
 	$page = 'boutique';
 }
-else if($q === 'formulairebebe')
-{
-	$page = 'formulairebebe';
-}
 else if($q === 'mentionslegales')
 {
 	$page = 'mentionslegales';
@@ -42,9 +42,25 @@ else if($q === 'acheteroffrir')
 {
 	$page = 'acheteroffrir';
 }
-else if($q === 'cgv')
+else if($q === 'formulairebebe')
 {
-	$page = 'cgv';
+	$page = 'formulairebebe';
+}
+else if($q === 'identification')
+{
+	$page = 'identification';
+}
+else if($q === 'formulaireachat')
+{
+	$page = 'formulaireachat';
+}
+else if($q === 'validation')
+{
+	$page = 'validation';
+}
+else if($q === 'conditionsgenerales')
+{
+	$page = 'conditionsgenerales';
 }
 else
 {

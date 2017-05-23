@@ -3,7 +3,7 @@
 define('URL', 'http://localhost:8888/'); // a changer pour la mise en ligne
 
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'h2_blog'); // mettre le nom de la bonne base de donnée
+define('DB_NAME', 'h2_mes_premiers_mois'); // mettre le nom de la bonne base de donnée
 define('DB_USER', 'root');
 define('DB_PASS', 'root'); // '' par défaut sur windows
 

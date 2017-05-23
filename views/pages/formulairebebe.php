@@ -40,7 +40,7 @@
 
     <h1 class="satisfy-little-title-orange">Qui est l'heureux bébé ?</h1>
 
-    <form class="form login-form lato-text-bluedark form-inscription" action="#" method="post">
+    <form class="form login-form lato-text-bluedark form-inscription" action="identification" method="post">
 
     <div class="form-part">
       <div class="form-zone">
